@@ -16,5 +16,11 @@ This area should work the same as: /news but it currently fails. Investigate and
 6. Enter browser devtools by pressing F12 key, once opened switch to console tab if not already selected.
 We can find that the console has printed errors stating CORS blocked.
 
+## Runing the script
+1. Clone the project.
+2. Ensure to have nodejs, chrome browser(latest stable) installed, (optional)having a code editor such as VScode helps
+3. Run "npm install" command from project directory (will install dependancy modules into project folder).
+4. to run the test enter command "npx wdio run ./wdio.conf.js" from project directory on CLI.
+
 
 
